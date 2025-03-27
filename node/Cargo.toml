@@ -1,0 +1,8 @@
+[package]
+name = "simple-zk-node"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sc-cli = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v1.0.0" }
+simple-zk-runtime = { path = "../runtime" }

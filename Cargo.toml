@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "pallets/test-zk",
+    "runtime",
+    "node"
+]
+resolver = "2"
+
+[workspace.dependencies]
+frame-support = { version = "38.2.0", default-features = false }
+frame-system = { version = "38.0.0", default-features = false }
+sp-runtime = { version = "38.0.0", default-features = false }
+sp-std = { version = "14.0.0", default-features = false }
+sp-core = { version = "14.0.0", default-features = false }
+codec = { package = "parity-scale-codec", version = "3.6.12", default-features = false, features = ["derive"] }
+scale-info = { version = "2.10.0", default-features = false, features = ["derive"] }
